@@ -1,10 +1,11 @@
 <script lang="ts">
-
+    let loginurl: string = '/login';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<button class="btn bg-yellow-100">Button DaisyUI!</button>
+<div class="flex justify-center items-center">
+    <a href='{loginurl}'><button class="btn bg-yellow-100 justify-center">Button DaisyUI!</button></a>
+</div>
+
 
 <style lang="postcss">
     
